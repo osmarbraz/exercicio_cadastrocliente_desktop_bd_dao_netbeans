@@ -10,7 +10,7 @@
  - Toda iteração com banco de dados é tratada diretamente pelo DAO.<br>
  - Os dados de configuração(Servidor, Database, Usuario, Senha) da integração do java com o banco de dados estão no arquivo src/dao/DadosBanco.java.<br>
  - Dependência do Driver JDBC foi especificada no arquivo pom.xml.<br>
- - O Driver de conexão com o MySQL e espeficado na classe Conexao.java.<br>
+ - O Driver de conexão com o MySQL e espeficado na classe src/dao/Conexao.java.<br>
  - Crie o banco de dados antes de executar o programa, as especificações da tabela estão no arquivo banco.sql.<br>
  - A pasta src contêm os fontes do projeto.<br>
  - A interface gráfica foi construída **com** o auxílio da IDE NetBeans.<br>
