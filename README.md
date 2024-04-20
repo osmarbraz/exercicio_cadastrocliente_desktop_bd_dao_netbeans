@@ -26,7 +26,7 @@
 
 Uma empresa necessita de um sistema para desktop em Java para cadastrar os seus clientes em um banco de dados. As informações que cada cliente deve preencher são as seguintes: Nome, Endereço, Cidade, Estado, CEP e Escolaridade.  A tabela e o banco de dados têm o nome “cliente”. A tabela tem a seguinte estrutura:
 
-CREATE TABLE Cliente (
+'''CREATE TABLE Cliente (
 	clienteID    INTEGER NOT NULL AUTO_INCREMENT,    	 
 	nome         VARCHAR(50) NOT NULL,     
 	endereco     VARCHAR(100),	
@@ -35,7 +35,7 @@ CREATE TABLE Cliente (
 	cep          VARCHAR(9),
 	escolaridade VARCHAR(20),		
 	PRIMARY KEY(clienteID)    
-);
+);'''
 
 O layout da janela é apresentado abaixo:
 
